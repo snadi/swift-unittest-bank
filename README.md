@@ -1,6 +1,6 @@
-# BankAccount Swift Example
+# Bank Account Example - Starter Swift repo for testing and CI
 
-This repository contains a simple implementation of a `BankAccount` class in Swift, demonstrating basic banking operations like depositing, withdrawing, and transferring funds. This repo is used for practicing simple unit testing.
+This Swift project is a starter repo that is used for teaching unit testing, code coverage, and CI using a simple `BankAccount` class. 
 
 This repo uses [XCTests](https://developer.apple.com/documentation/xctest/) for unit testing, and llvm-cov for tracking coverage.
 
@@ -40,7 +40,7 @@ xcrun llvm-cov report \
 
 This gives you a very ugly coverage summary on the terminal and for some reason doesn't detect the branches in the code. If you develop directly in xcode, there are probably better code coverage tools that have better visuals.
 
-## Your Task
+## Tasks
 
-Add tests to `BankAccountTest.swift` to achieve 100% statement coverage for the BankAccount class. Ideally, we want to also test 100% branch coverage but the current coverage tool used isn't correctly tracking branches.
+See [tasks/](tasks/) for tasks you can try out with this repo.
 
